@@ -1,0 +1,23 @@
+INDEX VERSION 1.126
+D:\Java\CanYouDebate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1277469811.index
+\CanYouDebate\src
+D:\Java\CanYouDebate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\65718389.index
+\CanYouDebate\src
+D:\Java\CanYouDebate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2911767225.index
+\CanYouDebate\src
+D:\Java\CanYouDebate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\167713318.index
+\CanYouDebate\src
+D:\Java\CanYouDebate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\994337560.index
+\CanYouDebate\src
+D:\Java\CanYouDebate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2727117242.index
+\CanYouDebate\src
+D:\Java\CanYouDebate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3801082045.index
+\CanYouDebate\src
+D:\Java\CanYouDebate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1818552957.index
+\CanYouDebate\src
+D:\Java\CanYouDebate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3369792149.index
+\CanYouDebate\src
+D:\Java\CanYouDebate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\358487061.index
+\CanYouDebate\src
+D:\Java\CanYouDebate\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2612108572.index
+\CanYouDebate\src

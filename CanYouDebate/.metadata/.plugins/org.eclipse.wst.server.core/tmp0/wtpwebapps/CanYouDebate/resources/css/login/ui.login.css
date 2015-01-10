@@ -1,0 +1,98 @@
+ body 
+ {
+    padding-top: 220px;
+/*     background-image: url(images/tdk.jpg);  */
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+ }
+
+.hero-unit {
+    background-color: #eeeeee;
+    border-radius: 6px;
+    color: inherit;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    margin-bottom: 30px;
+   
+    
+    max-width: 400px; padding: 15px 0px 30px 40px
+}
+
+.btn-manual {
+    background-color: #006dcc;
+    background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    padding: 4px 12px;
+}
+
+
+
+.row-fluid:before, .row-fluid:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row-fluid:before, .row-fluid:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row-fluid:before, .row-fluid:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row-fluid:after {
+    clear: both;
+}
+.row-fluid:before, .row-fluid:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row-fluid:after {
+    clear: both;
+}
+.row-fluid:before, .row-fluid:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row-fluid:after {
+    clear: both;
+}
+.row-fluid:before, .row-fluid:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row-fluid {
+    width: 100%;
+}
+.row-fluid {
+    width: 100%;
+}
+.row-fluid {
+    width: 100%;
+}
+
+
+
+.icon-user {
+    background-position: -168px 0;
+}
+[class^="icon-"], [class*=" icon-"] {
+    background-image: url("images/glyphicons-halflings.png");
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    margin-top: 1px;
+    vertical-align: text-top;
+    width: 14px;
+}

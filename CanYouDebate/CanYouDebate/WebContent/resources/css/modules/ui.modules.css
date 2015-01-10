@@ -1,0 +1,35 @@
+@import url('/ng-resource/css/bootstrap.min.css');
+
+.container-fluid.topic-template{
+	background-color: #eee;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    padding: 20px 20px;
+    min-height: 150px;
+}
+
+.paragraph{
+	line-height: 15px;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 7px 0 0;
+}
+
+.topicName{
+	border-bottom : 1px solid #b1b1b1;
+}
+
+.categoryName{
+	text-align: center;
+	
+}
+
+.container-fluid.comment {
+    background-color: #eee;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    min-height: 50px;
+    padding: 10px 20px;
+}

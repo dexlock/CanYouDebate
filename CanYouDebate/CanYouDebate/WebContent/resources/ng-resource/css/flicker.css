@@ -1,0 +1,320 @@
+
+.flickerplate {
+    background-color: transparent;
+    height: 768px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.flickerplate ul.flicks {
+    height: 100%;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    width: 10000%;
+}
+.flickerplate ul.flicks > li {
+    background-position: center center;
+    background-size: cover;
+    display: table;
+    float: left;
+    height: 100%;
+    width: 1%;
+}
+.flickerplate ul.flicks > li .flick-inner {
+    color: #fff;
+    display: table-cell;
+    height: 100%;
+    padding: 10px;
+    vertical-align: middle;
+}
+.flickerplate ul.flicks > li .flick-inner .flick-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 68.75em;
+}
+.flickerplate ul.flicks > li .flick-title {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.995em;
+    padding: 0;
+    text-align: center;
+}
+@media only screen and (max-width: 43.813em) {
+.flickerplate ul.flicks > li .flick-title {
+    font-size: 1.667em;
+}
+}
+.flickerplate ul.flicks > li .flick-sub-text {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 5px;
+    text-align: center;
+}
+.flickerplate ul.flicks > li .flick-title span.flick-block-text, .flickerplate ul.flicks > li .flick-sub-text span.flick-block-text {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 12px 18px;
+}
+.flickerplate .arrow-navigation {
+    height: 80%;
+    overflow: hidden;
+    position: absolute;
+    top: 10%;
+    width: 10%;
+    z-index: 100;
+}
+.flickerplate .arrow-navigation .arrow {
+    display: block;
+    height: 100%;
+    transition: all 0.2s ease-out 0s;
+    width: 90%;
+}
+.flickerplate .arrow-navigation:hover, .flickerplate .arrow-navigation .arrow:hover {
+    cursor: pointer;
+}
+.flickerplate .arrow-navigation.left {
+    left: 0;
+}
+.flickerplate .arrow-navigation.left .arrow {
+    background-image: url("../images/arrow-left-light.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    margin: 0 0 0 50%;
+    opacity: 0;
+}
+.flickerplate .arrow-navigation.right {
+    right: 0;
+}
+.flickerplate .arrow-navigation.right .arrow {
+    background-image: url("../images/arrow-right-light.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    margin: 0 0 0 -50%;
+    opacity: 0;
+}
+.flickerplate .arrow-navigation.left.hover .arrow {
+    margin: 0 0 0 20%;
+    opacity: 1;
+}
+.flickerplate .arrow-navigation.right.hover .arrow {
+    margin: 0 0 0 -20%;
+    opacity: 1;
+}
+.flickerplate .dot-navigation {
+    bottom: 15px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 100;
+}
+.flickerplate .dot-navigation ul {
+    list-style: none outside none;
+    padding: 40px 0;
+    text-align: center;
+}
+.flickerplate .dot-navigation ul li {
+    display: none;
+    float: none;
+}
+.flickerplate .dot-navigation .dot {
+    height: 14px;
+    margin: 0 6px;
+    width: 14px;
+}
+.flickerplate .dot-navigation .dot:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+.flickerplate .dot-navigation .dot.active {
+    background-color: #fff;
+}
+.flickerplate .dot-navigation.left, .flickerplate .dot-navigation.left ul {
+    text-align: left;
+}
+.flickerplate .dot-navigation.right, .flickerplate .dot-navigation.right ul {
+    text-align: right;
+}
+.flickerplate.flicker-theme-dark .arrow-navigation.left .arrow {
+    background-image: url("../img/flickerplate/arrow-left-dark.png");
+}
+.flickerplate.flicker-theme-dark .arrow-navigation.right .arrow {
+    background-image: url("../img/flickerplate/arrow-right-dark.png");
+}
+.flickerplate.flicker-theme-dark .dot-navigation .dot {
+    background-color: rgba(0, 0, 0, 0.12);
+}
+.flickerplate.flicker-theme-dark .dot-navigation .dot:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.flickerplate.flicker-theme-dark .dot-navigation .dot.active {
+    background-color: #000;
+}
+.flickerplate.flicker-theme-dark ul.flicks li .flick-inner {
+    color: rgba(0, 0, 0, 0.9);
+}
+.flickerplate.flicker-theme-dark ul.flicks li .flick-inner .flick-content .flick-sub-text {
+    color: rgba(0, 0, 0, 0.9);
+}
+.flickerplate.flicker-theme-dark ul.flicks li .flick-inner .flick-content .flick-title span.flick-block-text, .flickerplate.flicker-theme-dark ul.flicks li .flick-inner .flick-content .flick-sub-text span.flick-block-text {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.flickerplate ul.flicks li.flick-theme-dark .flick-inner {
+    color: rgba(0, 0, 0, 0.9);
+}
+.flickerplate ul.flicks li.flick-theme-dark .flick-inner .flick-content .flick-sub-text {
+    color: rgba(0, 0, 0, 0.9);
+}
+.flickerplate ul.flicks li.flick-theme-dark .flick-inner .flick-content .flick-title span.flick-block-text, .flickerplate ul.flicks li.flick-theme-dark .flick-inner .flick-content .flick-sub-text span.flick-block-text {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.flickerplate.animate-transform-slide ul.flicks {
+    transform: translate3d(0%, 0px, 0px);
+    transition: transform 0.6s ease 0s;
+}
+.flickerplate.animate-transition-slide ul.flicks {
+    left: 0;
+    position: relative;
+    transition: left 0.4s ease-out 0s;
+}
+.flickerplate.animate-jquery-slide ul.flicks {
+    left: 0;
+    position: relative;
+}
+.flickerplate.animate-scroller-slide {
+    overflow: auto;
+    padding-bottom: 0;
+}
+.flickerplate.animate-scroller-slide ul.flicks {
+}
+.chart {
+    display: inline-block;
+    height: auto;
+    left: 0;
+    margin-bottom: 25px;
+    margin-top: 0;
+    position: relative;
+    text-align: center;
+    width: auto;
+}
+.chart canvas {
+    height: 156px;
+    left: -53px;
+    position: absolute;
+    top: 0;
+    width: 156px;
+}
+.percent {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 152px;
+    margin-left: -36%;
+    opacity: 0.8;
+    z-index: 2;
+}
+.percent:after {
+    content: "%";
+    font-size: 32px;
+    font-weight: 300;
+    margin-left: 0.1em;
+}
+.angular {
+    margin-top: 100px;
+}
+.angular .chart {
+    margin-top: 0;
+}
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 430px) {
+body {
+    padding-top: 0;
+}
+}
+#cycle-loader {
+    height: 32px;
+    left: 50%;
+    margin: -8px 0 0 -8px;
+    position: absolute;
+    top: 50%;
+    width: 32px;
+    z-index: 999;
+}
+#maximage {
+    display: none;
+    position: relative !important;
+}
+#gradient {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+#logo {
+    bottom: 30px;
+    height: auto;
+    left: 30px;
+    position: absolute;
+    width: 34%;
+    z-index: 1000;
+}
+#logo img {
+    width: 100%;
+}
+#arrow_left, #arrow_right {
+    bottom: 30px;
+    height: 67px;
+    position: absolute;
+    right: 30px;
+    width: 36px;
+    z-index: 1000;
+}
+#arrow_left {
+    right: 86px;
+}
+#arrow_left:hover, #arrow_right:hover {
+    bottom: 29px;
+}
+#arrow_left:active, #arrow_right:active {
+    bottom: 28px;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.in-slide-content {
+    color: #333;
+    float: right;
+    font-family: 'Helvetica Neue',helvetica;
+    font-size: 36px;
+    margin: 40px;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    text-shadow: 0 1px 0 #fff;
+    top: 0;
+    width: 700px;
+    z-index: 9999;
+}
+.light-text {
+    color: #ddd;
+    text-shadow: 0 1px 0 #666;
+}
+.smaller-text {
+    font-size: 30px;
+    font-weight: 300;
+}
+.youtube-video, video {
+    left: 0;
+    position: absolute;
+    top: 0;
+}

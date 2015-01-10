@@ -1,0 +1,52 @@
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+
+	<definition name="layout" template="/jsp/layout/layout.jsp">
+		<put-attribute name="title" value="Can You Debate"></put-attribute>
+		<put-attribute name="customCssScripts" value="/jsp/layout/layout-js-css.jsp"></put-attribute>
+		<put-attribute name="flicker" value="/jsp/layout/flicker.jsp"></put-attribute>
+		<put-attribute name="home" value=""></put-attribute>
+		<put-attribute name="pageJsCss" value=""></put-attribute>
+		<put-attribute name="pageContent" value=""></put-attribute>
+		<put-attribute name="footer" value="/jsp/layout/footer.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="homePage" extends="layout">
+		<put-attribute name="home" value="/jsp/modules/home/home.jsp"></put-attribute>
+	</definition>
+	
+
+	<definition name="debateHomePage" extends="layout">
+		<put-attribute name="flicker" value=""></put-attribute>
+		<put-attribute name="pageJsCss" value="/jsp/modules/debate/debate-home-js-css.jsp"></put-attribute>
+		<put-attribute name="pageContent" value="/jsp/modules/debate/debate-home.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="startdebate" extends="layout">
+		<put-attribute name="flicker" value=""></put-attribute>
+		<put-attribute name="pageJsCss" value="/jsp/modules/debate/debate-home-js-css.jsp"></put-attribute>
+		<put-attribute name="pageContent" value="/jsp/modules/debate/debate-game.jsp"></put-attribute>
+	</definition>
+
+	<definition name="error" extends="layout">
+	    <put-attribute name="flicker" value=""></put-attribute>
+		<put-attribute name="pageContent" value="/jsp/error/error404.jsp"></put-attribute>
+	</definition>
+
+	<definition name="login" template="/jsp/login/login.jsp">
+	</definition>
+	
+<!-- 	<definition name="discussHomePage"  extends="debateHomePage">
+		<put-attribute name="pageContent" value="/jsp/modules/discussion/discussion-home.jsp"></put-attribute>
+	</definition> -->
+	
+	
+	<definition name="editprofile" extends="layout">
+   	    <put-attribute name="flicker" value=""></put-attribute>
+	    <put-attribute name="pageJsCss" value="/jsp/modules/profile/userprofile-js-css.jsp"></put-attribute>
+		<put-attribute name="pageContent" value="/jsp/modules/profile/userprofile.jsp"></put-attribute>
+	</definition>
+
+</tiles-definitions>

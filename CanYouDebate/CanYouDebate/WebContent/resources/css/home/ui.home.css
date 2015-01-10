@@ -1,0 +1,28 @@
+@import url('/ng-resource/css/bootstrap.min.css');
+
+.form-control.inputText {
+	height: 37px;
+	width: 400px;
+	margin-bottom: 0;
+}
+
+.vertical-line {
+	background-color: #eeeeee; /
+	height: 100%;
+	float: left;
+	    height: 570px;
+    width: 0.5%;
+}
+
+.span7.topicFont {
+	color: #777777;
+	font-size: 20px;
+}
+
+.for{
+	width: 49%;float: left;
+}
+.against{
+	margin-left:10px;
+	width: 49%;float: left;
+}
